@@ -2,7 +2,8 @@
 
 This project is a simple Kanban Board application built using React, TypeScript, and the Dnd Kit library. Users can manage tasks by dragging and dropping them between columns.
 
-##Demo
+## Demo
+
 <img src="KanBan.png"/>
 
 ## Features

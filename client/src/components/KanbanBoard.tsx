@@ -20,6 +20,11 @@ function KanbanBoard() {
       px-[40px]
     ">
         <div className="m-auto">
+          <div>
+            {columns.map((col) => (
+              <div>{col.title}</div>
+            ))}
+          </div>
             <button 
           
             className="

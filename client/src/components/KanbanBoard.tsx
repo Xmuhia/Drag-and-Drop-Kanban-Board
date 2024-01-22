@@ -42,11 +42,18 @@ function KanbanBoard() {
             </button>
         </div>
     </div>
-  )
+  );
+
+  function createNewColumn () {
+    const columnToAdd: Column = {
+      id: generateId(),
+      title: `Column ${columns.length + 1}`
+    }
+    
+    setColumns([...columns, columnToAdd]);
+  }
 }
 
-function createNewColumn () {
-  
-}
+
 
 export default KanbanBoard;

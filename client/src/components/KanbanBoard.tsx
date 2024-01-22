@@ -54,6 +54,11 @@ function KanbanBoard() {
   }
 }
 
+function generateId () {
+  /* Generate a random number between 0 & 10000 */
+  return Math.floor(Math.random() * 10001);
+}
+
 
 
 export default KanbanBoard;
